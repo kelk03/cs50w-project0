@@ -1,0 +1,15 @@
+$color: red;
+$border:brown;
+
+h1{
+    color: $color;
+    border: $border;
+    text-align: center;
+}
+body
+{
+    color: blue;
+}
+p {
+    font-family: arial, helvetica, roboto, "new times roman", lato;
+}
