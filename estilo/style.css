@@ -1,6 +1,11 @@
 h1 {
-  color: red;
+  color:ghostwhite;
   border: brown;
+  text-align: center;
+}
+h6
+{
+  color: darkgoldenrod;
   text-align: center;
 }
 
@@ -11,5 +16,13 @@ body {
 p {
   font-family: arial, helvetica, roboto, "new times roman", lato;
   text-align: center;
+  color: black;
+  size: 14px;
+  text-align: initial;
+  size: unset;
 }
 /*# sourceMappingURL=style.css.map */
+a
+{
+  color: aqua;
+}
