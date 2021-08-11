@@ -1,7 +1,9 @@
 h1 {
-  color:ghostwhite;
+  color:darkblue;
   border: brown;
+  font-family:cursive;
   text-align: center;
+  
 }
 h6
 {
@@ -13,16 +15,30 @@ body {
   color: blue;
 }
 
-p {
-  font-family: arial, helvetica, roboto, "new times roman", lato;
+.p1 {
+  font-family: "Times New Roman", Times, serif;
   text-align: center;
-  color: black;
+  color:honeydew;
   size: 14px;
-  text-align: initial;
+  text-align:left;
   size: unset;
+  background-color: darkgoldenrod;
+  opacity: 0.6;
 }
 /*# sourceMappingURL=style.css.map */
 a
 {
   color: aqua;
+  text-align: left;
+}
+div.relative {
+  position: relative;
+  left: 30px;
+  border: 3px solid #73AD21;
+}
+div.gallery {
+  margin: 75px;
+  border: 0px solid red;
+  float:center;
+  width: 18px;
 }
