@@ -46,17 +46,11 @@ div.relative {
   border: 3px solid #73AD21;
 }
 
-div.container {
-  text-align:center;
-  padding: 5px 5px;
-  color:black
-}
 div.h2
 {
-  font-family: monospace;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
   text-align: center;
   color:goldenrod;
-  
 }
 div.gallery {
   margin: 25px;
@@ -82,4 +76,6 @@ div.desc {
 div.Jumbotron
 {
   font-family: 'Courier New', Courier, monospace;
+  color: black;
+  text-align: center;
 }
