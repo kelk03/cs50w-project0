@@ -1,9 +1,8 @@
 div.h1 {
-  color:darkblue;
+  color:black;
   border: brown;
-  font-family:cursive;
+  font-family:sans-serif;
   text-align: center;
-  size:unset;
   position:relative;
   
 }
@@ -15,24 +14,13 @@ div.sub
 }
 h6
 {
+
   color: darkgoldenrod;
-  text-align: center;
 }
 
 body {
 
-  color: blue;
-}
-
-.p1 {
-  font-family: "Times New Roman", Times, serif;
-  text-align: center;
-  color:honeydew;
-  size: 14px;
-  text-align:left;
-  size: unset;
-  background-color: darkgoldenrod;
-  opacity: 0.6;
+  background-color:darkgrey;
 }
 /*# sourceMappingURL=style.css.map */
 a
@@ -72,10 +60,27 @@ div.desc {
   padding: 45px;
   text-align: center;
   color: darkgoldenrod;
+  background-color:ghostwhite;
 }
 div.Jumbotron
 {
-  font-family: 'Courier New', Courier, monospace;
-  color: black;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color:darkgoldenrod;
   text-align: center;
+  font-size: small;
+}
+div.p1
+{
+  color:maroon;
+  text-align: center;
+  font-weight: lighter;
+}
+div.mundial
+{
+  padding: 3%;
+  text-align: justify;
+}
+div.titleM
+{
+  padding: 5%;
 }

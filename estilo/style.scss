@@ -13,3 +13,10 @@ body
 p {
     font-family: arial, helvetica, roboto, "new times roman", lato;
 }
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+  xxl: 1320px
+);
