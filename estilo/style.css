@@ -4,6 +4,8 @@ div.h1 {
   font-family:sans-serif;
   text-align: center;
   position:relative;
+  padding-top: 5px;
+  padding: 5%;
   
 }
 div.sub
@@ -61,13 +63,44 @@ div.desc {
   text-align: center;
   color: darkgoldenrod;
   background-color:ghostwhite;
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  .responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+  
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
 }
 div.Jumbotron
 {
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color:darkgoldenrod;
   text-align: center;
-  font-size: small;
+  font-size:large;
+  padding: 5%;
 }
 div.p1
 {
@@ -82,5 +115,25 @@ div.mundial
 }
 div.titleM
 {
+  padding: 5%;
+}
+.final
+{
+  background-color: white;
+  padding: 5%;
+  width: auto;
+  height: 5cm;
+}
+.logo
+{
+  image-resolution:initial;
+  padding-right: 450px;
+  padding-left: 500px;
+}
+.fondoM
+{
+  background-color: skyblue;
+  width: 800;
+  height: auto; 
   padding: 5%;
 }
