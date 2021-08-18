@@ -20,10 +20,6 @@ h6
   color: darkgoldenrod;
 }
 
-body {
-
-  background-color:darkgrey;
-}
 /*# sourceMappingURL=style.css.map */
 a
 {
@@ -42,6 +38,7 @@ div.h2
   text-align: center;
   color:goldenrod;
 }
+
 div.gallery {
   margin: 25px;
   border: 3px solid #ccc;
@@ -63,37 +60,63 @@ div.desc {
   text-align: center;
   color: darkgoldenrod;
   background-color:ghostwhite;
-
-  * {
-    box-sizing: border-box;
-  }
-  
-  .responsive {
-    padding: 0 6px;
-    float: left;
-    width: 24.99999%;
-  }
-  
-  @media only screen and (max-width: 700px) {
-    .responsive {
-      width: 49.99999%;
-      margin: 6px 0;
-    }
-  }
-  
-  @media only screen and (max-width: 500px) {
-    .responsive {
-      width: 100%;
-    }
-  }
-  
-  .clearfix:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  
 }
+div.galleryB
+{
+  margin: 25px;
+  border: 5px solid #3498DB ;
+  float: left;
+  width: 380px;
+
+}
+div.galleryB img {
+  width: 100%;
+  height: auto;
+}
+
+div.galleryB:hover {
+  border: 1px solid #F7DC6F;
+}
+
+div.descB
+{
+  padding: 45px;
+  text-align: center;
+  color: black;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color:#F4D03F ;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 div.Jumbotron
 {
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -108,32 +131,96 @@ div.p1
   text-align: center;
   font-weight: lighter;
 }
-div.mundial
+.mundial
 {
   padding: 3%;
   text-align: justify;
 }
-div.titleM
+.titleM
 {
   padding: 5%;
 }
 .final
 {
-  background-color: white;
-  padding: 5%;
+  background-color:darkgrey;
+  background-size: auto;
   width: auto;
   height: 5cm;
+  padding-top: 5%;
 }
 .logo
 {
   image-resolution:initial;
-  padding-right: 450px;
-  padding-left: 500px;
+  text-align: center;
 }
 .fondoM
 {
   background-color: skyblue;
-  width: 800;
-  height: auto; 
-  padding: 5%;
+  background-size: auto auto;
+}
+.fondoBr
+{
+ background-image: url(/estilo/imagenes/flags/FLAG_BRAZIL.png);
+ background-repeat: no-repeat;
+ background-size: contain;
+ background-position-x: center;
+}
+
+div.galleryU
+{
+  margin: 25px;
+  border: 5px solid #EBF5FB  ;
+  float: left;
+  width: 380px;
+
+}
+div.galleryU img {
+  width: 100%;
+  height: auto;
+}
+
+div.galleryU:hover {
+  border: 1px solid #EBF5FB ;
+}
+
+div.descU
+{
+  padding: 45px;
+  text-align: center;
+  color:white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color:#85C1E9  ;
+}
+.fondoUr
+{
+ background-image: url(/estilo/imagenes/flags/uruguay.gif);
+ background-repeat: no-repeat;
+ background-size: contain;
+ background-position-x: center;
+}
+
+div.galleryAl
+{
+  margin: 25px;
+  border: 5px solid #8C2C17  ;
+  float: left;
+  width: 380px;
+
+}
+div.galleryAl img {
+  width: 100%;
+  height: auto;
+}
+
+div.galleryAl:hover {
+  border: 1px solid #131211 ;
+}
+
+div.descAl
+{
+  padding: 45px;
+  text-align: center;
+  color:white;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  background-color:#131211 ;
 }
