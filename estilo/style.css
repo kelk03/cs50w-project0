@@ -160,7 +160,7 @@ div.p1
 }
 .fondoBr
 {
- background-image: url(/estilo/imagenes/flags/FLAG_BRAZIL.png);
+ background:#FBED88;
  background-repeat: no-repeat;
  background-size: contain;
  background-position-x: center;
@@ -193,7 +193,7 @@ div.descU
 }
 .fondoUr
 {
- background-image: url(/estilo/imagenes/flags/uruguay.gif);
+ background:#B7D9F9;
  background-repeat: no-repeat;
  background-size: contain;
  background-position-x: center;
@@ -223,4 +223,81 @@ div.descAl
   color:white;
   font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   background-color:#131211 ;
+}
+
+.gifAL
+{
+  padding-top: 5%;
+}
+
+.fondoAL
+{
+  background-color: #893333;
+}
+
+div.galleryIT
+{
+  margin: 25px;
+  border: 5px solid #F7795A  ;
+  float: left;
+  width: 380px;
+
+}
+div.galleryIT img {
+  width: 100%;
+  height: auto;
+}
+
+div.galleryIT:hover {
+  border: 1px solid #3968F0 ;
+}
+
+div.descIT  
+{
+  padding: 45px;
+  text-align: center;
+  color:#FFFFFF;
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color:#5FCD39 ;
+}
+
+.fondoIT
+{
+  background-color: #A3B8E3;
+}
+
+.fondoArg
+{
+  background-color: #0B1E46;
+}
+div.galleryarg
+{
+  margin: 25px;
+  border: 5px solid #E1DE07  ;
+  float: left;
+  width: 380px;
+
+}
+div.galleryarg img {
+  width: 100%;
+  height: auto;
+}
+
+div.galleryarg:hover {
+  border: 10px solid #dde1ee ;
+}
+
+div.descarg  
+{
+  padding: 45px;
+  text-align: center;
+  color:#7E9DDC;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color:#F5F7FB ;
+}
+.gifarg
+{
+  text-align: left;
+  width: 410px;
+  border: 5px solid #BEC42E;
 }
