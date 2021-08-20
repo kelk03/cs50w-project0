@@ -140,14 +140,7 @@ div.p1
 {
   padding: 5%;
 }
-.final
-{
-  background-color:darkgrey;
-  background-size: auto;
-  width: auto;
-  height: 5cm;
-  padding-top: 5%;
-}
+
 .logo
 {
   image-resolution:initial;
@@ -331,5 +324,15 @@ div.descarg
   background-color: #090354 ;
   height: 400;
   width: auto;
+}
 
+.icons
+{
+  text-align: center;
+  padding-top: 2%;
+}
+#fongoleadores
+{
+  background-color: #FFF471;
+  background-size: auto;
 }
