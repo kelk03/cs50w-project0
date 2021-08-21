@@ -1,29 +1,19 @@
-div.h1 {
-  color:black;
+@charset "UTF-8";
+.h1 {
+  color: black;
   border: brown;
-  font-family:sans-serif;
   text-align: center;
-  position:relative;
+  position: relative;
   padding-top: 5px;
   padding: 5%;
-  
-}
-div.sub
-{
-  color:black;
-  font-family:monospace;
-  text-decoration:chocolate;
-}
-h6
-{
-  color: darkgoldenrod;
+  font-family: monospace;
 }
 
-/*# sourceMappingURL=style.css.map */
-a
-{
-  color: aqua;
-  text-align: left;
+div.sub {
+  color: black;
+  font-family: monospace;
+  -webkit-text-decoration: chocolate;
+          text-decoration: chocolate;
 }
 div.relative {
   position: relative;
@@ -31,21 +21,20 @@ div.relative {
   border: 3px solid #73AD21;
 }
 
-div.h2
-{
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
+div.h2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-align: center;
-  color:goldenrod;
+  color: goldenrod;
 }
 
-div.gallery {
+.gallery, .galleryB, div.galleryU, div.galleryAl, div.galleryIT, div.galleryarg {
   margin: 25px;
   border: 3px solid #ccc;
   float: left;
   width: 380px;
 }
 
-div.gallery:hover {
+.gallery:hover {
   border: 1px solid #777;
 }
 
@@ -58,16 +47,13 @@ div.desc {
   padding: 45px;
   text-align: center;
   color: darkgoldenrod;
-  background-color:ghostwhite;
+  background-color: ghostwhite;
 }
-div.galleryB
-{
-  margin: 25px;
-  border: 5px solid #3498DB ;
-  float: left;
-  width: 380px;
 
+.galleryB {
+  border: 5px solid #3498DB;
 }
+
 div.galleryB img {
   width: 100%;
   height: auto;
@@ -77,18 +63,17 @@ div.galleryB:hover {
   border: 1px solid #F7DC6F;
 }
 
-div.descB
-{
+div.descB {
   padding: 45px;
   text-align: center;
   color: black;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  background-color:#F4D03F ;
+  background-color: #F4D03F;
 }
 
-
 * {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .responsive {
@@ -116,236 +101,206 @@ div.descB
   clear: both;
 }
 
-.Jumbotron
-{
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  color:darkgoldenrod;
+.Jumbotron {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: darkgoldenrod;
   text-align: center;
-  font-size:large;
+  font-size: large;
   padding: 5%;
 }
 
-  @media screen and (max-width:500px) {
-    .Jumbotron {
-      width: 70%;
-      color: black;
+@media screen and (max-width: 500px) {
+  .Jumbotron {
+    width: 70%;
+    color: black;
   }
 }
 
-div.p1
-{
-  color:maroon;
+div.p1 {
+  color: maroon;
   text-align: center;
   font-weight: lighter;
 }
-.mundial
-{
+
+.mundial {
   padding: 3%;
   text-align: justify;
 }
-.titleM
-{
+
+.titleM {
   padding: 5%;
 }
 
-.logo
-{
-  image-resolution:initial;
+.logo {
+  image-resolution: initial;
   text-align: center;
 }
-.fondoM
-{
+
+.fondoM {
   background-color: skyblue;
   background-size: auto auto;
 }
-.fondoBr
-{
- background:#FBED88;
- background-repeat: no-repeat;
- background-size: contain;
- background-position-x: center;
+
+.fondoBr {
+  background: #FBED88;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position-x: center;
 }
 
-div.galleryU
-{
-  margin: 25px;
-  border: 5px solid #EBF5FB  ;
-  float: left;
-  width: 380px;
-
+div.galleryU {
+  border: 5px solid #EBF5FB;
 }
+
 div.galleryU img {
   width: 100%;
   height: auto;
 }
 
 div.galleryU:hover {
-  border: 1px solid #EBF5FB ;
+  border: 1px solid #EBF5FB;
 }
 
-div.descU
-{
+div.descU {
   padding: 45px;
   text-align: center;
-  color:white;
+  color: white;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  background-color:#85C1E9  ;
-}
-.fondoUr
-{
- background:#B7D9F9;
- background-repeat: no-repeat;
- background-size: contain;
- background-position-x: center;
+  background-color: #85C1E9;
 }
 
-div.galleryAl
-{
-  margin: 25px;
-  border: 5px solid #8C2C17  ;
-  float: left;
-  width: 380px;
-
+.fondoUr {
+  background: #B7D9F9;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position-x: center;
 }
+
+div.galleryAl {
+  border: 5px solid #8C2C17;
+}
+
 div.galleryAl img {
   width: 100%;
   height: auto;
 }
 
 div.galleryAl:hover {
-  border: 1px solid #131211 ;
+  border: 1px solid #131211;
 }
 
-div.descAl
-{
+div.descAl {
   padding: 45px;
   text-align: center;
-  color:white;
-  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  background-color:#131211 ;
+  color: white;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  background-color: #131211;
 }
 
-.gifAL
-{
+.gifAL {
   padding-top: 5%;
-  
 }
 
-.fondoAL
-{
+.fondoAL {
   background-color: #893333;
 }
 
-div.galleryIT
-{
-  margin: 25px;
-  border: 5px solid #F7795A  ;
-  float: left;
-  width: 380px;
-
+div.galleryIT {
+  border: 5px solid #F7795A;
 }
+
 div.galleryIT img {
   width: 100%;
   height: auto;
 }
 
 div.galleryIT:hover {
-  border: 1px solid #3968F0 ;
+  border: 1px solid #3968F0;
 }
 
-div.descIT  
-{
+div.descIT {
   padding: 45px;
   text-align: center;
-  color:#FFFFFF;
-  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  background-color:#5FCD39 ;
+  color: #FFFFFF;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color: #5FCD39;
 }
 
-.fondoIT
-{
+.fondoIT {
   background-color: #A3B8E3;
 }
 
-.fondoArg
-{
+.fondoArg {
   background-color: #0B1E46;
 }
-div.galleryarg
-{
-  margin: 25px;
-  border: 5px solid #E1DE07  ;
-  float: left;
-  width: 380px;
 
+div.galleryarg {
+  border: 5px solid #E1DE07;
 }
+
 div.galleryarg img {
   width: 100%;
   height: auto;
 }
 
 div.galleryarg:hover {
-  border: 10px solid #dde1ee ;
+  border: 10px solid #dde1ee;
 }
 
-div.descarg  
-{
+div.descarg {
   padding: 45px;
   text-align: center;
-  color:#7E9DDC;
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  background-color:#F5F7FB ;
+  color: #7E9DDC;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: #F5F7FB;
 }
-.gifarg
-{
+
+.gifarg {
   text-align: left;
   width: 410px;
   border: 5px solid #BEC42E;
 }
 
-.datos{
-  font-family:sans-serif;
-  font-size:large;
-  font-display:initial;
-  text-align: justify;
+.datos {
+  text-align: center;
   color: white;
+  font-family: sans-serif;
+  font-size: large;
+  font-display: initial;
 }
-.head
-{
+
+.head {
   padding: 5%;
 }
-.datosfondo
-{
+
+.datosfondo {
   background-color: #090A0D;
 }
 
-.datosimg
-{
-
+.datosimg {
   border: 5px inset #BEC42E;
   width: 360px;
-
 }
-.lastfondo
-{
-  background-color: #090354 ;
+
+.lastfondo {
+  background-color: #090354;
   height: 400;
   width: auto;
 }
 
-.icons
-{
+.icons {
   text-align: center;
   padding-top: 2%;
 }
-#fongoleadores
-{
+
+#fongoleadores {
   background-color: #FFF471;
   background-size: auto;
 }
-#imgfondo
-{
+
+#imgfondo {
   background-image: url(/estilo/imagenes/fondos/fondos-de-fútbol.jpg);
-  width:100%;
+  width: 100%;
   height: 100%;
 }
+/*# sourceMappingURL=style.css.map */

@@ -1,22 +1,355 @@
-$color: red;
-$border:brown;  
+$color: black;
+$letritas:darkgoldenrod;
 
-h1{
-    color: $color;
-    border: $border;
+
+.h1 {
+    color:$color;
+    border: brown;
     text-align: center;
+    position:relative;
+    padding-top: 5px;
+    padding: 5%;
+   
+    font: {
+        family:monospace;
+    }
+    
+  }
+  div.sub
+  {
+    color:$color;
+    font-family:monospace;
+    text-decoration:chocolate;
+  }
+ 
+  /*# sourceMappingURL=style.css.map */
+ 
+  div.relative {
+    position: relative;
+    left: 30px;
+    border: 3px solid #73AD21;
+  }
+  
+  div.h2
+  {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color:goldenrod;
+  }
+  
+  %gallery {
+    margin: 25px;
+    border: 3px solid #ccc;
+    float: left;
+    width: 380px;
+  }
+  .gallery:hover {
+    border: 1px solid #777;
+  }
+  .gallery
+  {
+      @extend %gallery;
+
 }
-body
-{
-    color: blue;
-}
-p {
-    font-family: arial, helvetica, roboto, "new times roman", lato;
-}
-$container-max-widths: (
-  sm: 540px,
-  md: 720px,
-  lg: 960px,
-  xl: 1140px,
-  xxl: 1320px
-);
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 45px;
+    text-align: center;
+    color:$letritas;
+    background-color:ghostwhite;
+  }
+  .galleryB
+  {
+   @extend %gallery;
+    border: 5px solid #3498DB ;
+
+  }
+  div.galleryB img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.galleryB:hover {
+    border: 1px solid #F7DC6F;
+  }
+  
+  div.descB
+  {
+    padding: 45px;
+    text-align: center;
+    color: $color;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color:#F4D03F ;
+  }
+  
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+  
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .Jumbotron
+  {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:$letritas;
+    text-align: center;
+    font-size:large;
+    padding: 5%;
+  }
+  
+    @media screen and (max-width:500px) {
+      .Jumbotron {
+        width: 70%;
+        color:$color;
+    }
+  }
+  
+  div.p1
+  {
+    color:maroon;
+    text-align: center;
+    font-weight: lighter;
+  }
+  .mundial
+  {
+    padding: 3%;
+    text-align: justify;
+  }
+  .titleM
+  {
+    padding: 5%;
+  }
+  
+  .logo
+  {
+    image-resolution:initial;
+    text-align: center;
+  }
+  .fondoM
+  {
+    background-color: skyblue;
+    background-size: auto auto;
+  }
+  .fondoBr
+  {
+   background:#FBED88;
+   background-repeat: no-repeat;
+   background-size: contain;
+   background-position-x: center;
+  }
+  
+  div.galleryU
+  {
+    @extend %gallery;
+    border: 5px solid #EBF5FB  ;
+   
+  }
+  div.galleryU img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.galleryU:hover {
+    border: 1px solid #EBF5FB ;
+  }
+  
+  div.descU
+  {
+    padding: 45px;
+    text-align: center;
+    color:white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color:#85C1E9  ;
+  }
+  .fondoUr
+  {
+   background:#B7D9F9;
+   background-repeat: no-repeat;
+   background-size: contain;
+   background-position-x: center;
+  }
+  
+  div.galleryAl
+  {
+    @extend %gallery;
+    border: 5px solid #8C2C17  ;
+   
+  
+  }
+  div.galleryAl img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.galleryAl:hover {
+    border: 1px solid #131211 ;
+  }
+  
+  div.descAl
+  {
+    padding: 45px;
+    text-align: center;
+    color:white;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color:#131211 ;
+  }
+  
+  .gifAL
+  {
+    padding-top: 5%;
+    
+  }
+  
+  .fondoAL
+  {
+    background-color: #893333;
+  }
+  
+  div.galleryIT
+  {
+    @extend %gallery;
+    border: 5px solid #F7795A  ;
+  
+  
+  }
+  div.galleryIT img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.galleryIT:hover {
+    border: 1px solid #3968F0 ;
+  }
+  
+  div.descIT  
+  {
+    padding: 45px;
+    text-align: center;
+    color:#FFFFFF;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color:#5FCD39 ;
+  }
+  
+  .fondoIT
+  {
+    background-color: #A3B8E3;
+  }
+  
+  .fondoArg
+  {
+    background-color: #0B1E46;
+  }
+  div.galleryarg
+  {
+    @extend %gallery;
+    border: 5px solid #E1DE07  ;
+ 
+  
+  }
+  div.galleryarg img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.galleryarg:hover {
+    border: 10px solid #dde1ee ;
+  }
+  
+  div.descarg  
+  {
+    padding: 45px;
+    text-align: center;
+    color:#7E9DDC;
+    font: {
+        family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    background: {
+
+        color: #F5F7FB ;
+    }
+  }
+  .gifarg
+  {
+    text-align: left;
+    width: 410px;
+    border: 5px solid #BEC42E;
+  }
+  
+  .datos{
+    text-align: center;
+    color: white;
+
+    font: {
+        family:sans-serif;
+        size: large;
+        display: initial;
+    }
+  }
+  .head
+  {
+    padding: 5%;
+  }
+  .datosfondo
+  {
+    background-color: #090A0D;
+  }
+  
+  .datosimg
+  {
+  
+    border: 5px inset #BEC42E;
+    width: 360px;
+  
+  }
+  .lastfondo
+  {
+    background-color: #090354 ;
+    height: 400;
+    width: auto;
+  }
+  
+  .icons
+  {
+    text-align: center;
+    padding-top: 2%;
+  }
+  #fongoleadores
+  {
+    background-color: #FFF471;
+    background-size: auto;
+  }
+  #imgfondo
+  {
+    background-image: url(/estilo/imagenes/fondos/fondos-de-fútbol.jpg);
+    width:100%;
+    height: 100%;
+  }
