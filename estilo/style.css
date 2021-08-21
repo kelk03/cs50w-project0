@@ -16,7 +16,6 @@ div.sub
 }
 h6
 {
-
   color: darkgoldenrod;
 }
 
@@ -117,7 +116,7 @@ div.descB
   clear: both;
 }
 
-div.Jumbotron
+.Jumbotron
 {
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color:darkgoldenrod;
@@ -125,6 +124,14 @@ div.Jumbotron
   font-size:large;
   padding: 5%;
 }
+
+  @media screen and (max-width:500px) {
+    .Jumbotron {
+      width: 70%;
+      color: black;
+  }
+}
+
 div.p1
 {
   color:maroon;
@@ -335,4 +342,10 @@ div.descarg
 {
   background-color: #FFF471;
   background-size: auto;
+}
+#imgfondo
+{
+  background-image: url(/estilo/imagenes/fondos/fondos-de-fútbol.jpg);
+  width:100%;
+  height: 100%;
 }
