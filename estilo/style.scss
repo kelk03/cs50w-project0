@@ -107,7 +107,7 @@ $letritas:darkgoldenrod;
   
   @media only screen and (max-width: 500px) {
     .responsive {
-      width: 100%;
+      width: auto;
     }
   }
   
@@ -129,7 +129,8 @@ $letritas:darkgoldenrod;
     @media screen and (max-width:500px) {
       .Jumbotron {
         width: 70%;
-        color:$color;
+        color:$letritas;
+        text-align: center center;
     }
   }
   
@@ -299,9 +300,10 @@ $letritas:darkgoldenrod;
   }
   .gifarg
   {
-    text-align: left;
-    width: 410px;
-    border: 5px solid #BEC42E;
+    text-align: center center;
+    width: 360px;
+    padding-top: 5%;
+    padding-bottom: 5%;
   }
   
   .datos{
@@ -321,6 +323,8 @@ $letritas:darkgoldenrod;
   .datosfondo
   {
     background-color: #090A0D;
+    background-position: center center;
+    background-attachment: fixed;
   }
   
   .datosimg
@@ -335,6 +339,8 @@ $letritas:darkgoldenrod;
     background-color: #090354 ;
     height: 400;
     width: auto;
+    background-position: center center;
+    background-attachment: fixed;
   }
   
   .icons
@@ -346,10 +352,22 @@ $letritas:darkgoldenrod;
   {
     background-color: #FFF471;
     background-size: auto;
+    background-position: center center;
+    background-attachment: fixed;
+
   }
   #imgfondo
   {
-    background-image: url(/estilo/imagenes/fondos/fondos-de-fútbol.jpg);
-    width:100%;
-    height: 100%;
+    background-image: url(../estilo/imagenes/fondos/fondos-de-fútbol.jpg);
+    background-position:center center;
+    background-attachment: fixed;
+
+  }
+  @media screen and (max-width:100px) { 
+    #imgfondo {
+      background-color: #E1DE07;
+      background-position:center center;
+      background-attachment: fixed;
+    }
+    
   }
